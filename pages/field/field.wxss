@@ -1,0 +1,15 @@
+/* pages/field/field.wxss */
+.field_box {
+  width: 750rpx;
+  height: 138rpx;
+  background: #FFFFFF;
+  border-radius: 6rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.field_img {
+  width: 96rpx;
+  height: 98rpx;
+  background-color: rgb(232, 238, 238);
+}

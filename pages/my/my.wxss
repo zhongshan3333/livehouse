@@ -1,0 +1,30 @@
+/* pages/my/my.wxss */
+page{
+  background-color:#EFF2F6;
+}
+.user_box {
+  width: 750rpx;
+  height:162rpx;
+  background: #FFFFFF;
+  padding:0rpx 40rpx;
+  box-sizing: border-box;
+}
+.headImg{
+  width: 130rpx;
+height: 130rpx;
+margin-right: 22rpx;
+border-radius: 12rpx;
+background-color: rgb(232, 238, 238);
+}
+.fun_box{
+  width: 750rpx;
+height: 109rpx;
+background: #FFFFFF;
+padding:0rpx 40rpx;
+box-sizing: border-box;
+border-bottom: 1rpx solid rgb(232, 238, 238);
+}
+.arrowImg{
+  width:30rpx;
+  height:55rpx
+}

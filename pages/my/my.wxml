@@ -1,0 +1,36 @@
+<!--pages/my/my.wxml-->
+<view class="user_box flex_rowBetween_c">
+  <view class="col_center">
+    <image class="headImg"></image>
+    <view style="font-size: 36rpx;color: #0A0A17;">达尔文</view>
+  </view>
+  <view style="font-size: 24rpx;color: #999999;">编辑</view>
+</view>
+<view class="fun_box flex_rowBetween_c">
+  <view class="col_center">
+   <image style="width:33rpx;height:33rpx;background:#eee;margin-right:24rpx" src=""></image>
+    <view style="font-size: 32rpx;color: #4E4E4E;">我的转票</view>
+  </view>
+  <image class="arrowImg" src="../../images/arrow.png"></image>
+</view>
+<view class="fun_box flex_rowBetween_c">
+  <view class="col_center">
+   <image style="width:33rpx;height:33rpx;background:#eee;margin-right:24rpx" src=""></image>
+    <view style="font-size: 32rpx;color: #4E4E4E;">我的收藏</view>
+  </view>
+  <image class="arrowImg" src="../../images/arrow.png"></image>
+</view>
+<view class="fun_box flex_rowBetween_c">
+  <view class="col_center">
+   <image style="width:33rpx;height:33rpx;background:#eee;margin-right:24rpx" src=""></image>
+    <view style="font-size: 32rpx;color: #4E4E4E;">我的提醒</view>
+  </view>
+  <image class="arrowImg" src="../../images/arrow.png"></image>
+</view>
+<view class="fun_box flex_rowBetween_c">
+  <view class="col_center">
+   <image style="width:33rpx;height:33rpx;background:#eee;margin-right:24rpx" src=""></image>
+    <view style="font-size: 32rpx;color: #4E4E4E;">乐迷群</view>
+  </view>
+  <image class="arrowImg" src="../../images/arrow.png"></image>
+</view>

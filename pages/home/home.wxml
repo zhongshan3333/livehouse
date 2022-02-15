@@ -1,0 +1,44 @@
+<!--首页-->
+<view class="contain">
+  <view class="search">
+    <icon type="search" style="margin-left:12rpx;margin-right:12rpx"></icon>
+    <input type="text" placeholder-style="color:#BBBBBB" placeholder="搜索转票信息" style="width:90%；height:64rpx"/>
+  </view>
+  <view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+      <view class="time">11月2日 20:30 周二</view>
+      <view class="info" class="flex_rowBetween">
+        <view class="time">B10现场</view>
+        <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+      </view>
+      <view class="line"></view>
+      <view class="person">
+        <image class="personImg"></image>
+        <view class="name">胖胖仔</view>
+      </view>
+    </view>
+  </view>
+  <view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「南方小镇」《南方小镇》2021巡演</view>
+      <view class="time">11月2日 20:30 周二</view>
+      <view class="info" class="flex_rowBetween">
+        <view class="time">B10现场</view>
+        <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+      </view>
+      <view class="line"></view>
+      <view class="person col_center">
+        <image class="personImg"></image>
+        <view class="name">胖胖仔</view>
+      </view>
+    </view>
+  </view>
+  <view class="transferBtn col_row_center" bindtap="toTranfer">
+    我要转票
+  </view>
+</view>
+  
+

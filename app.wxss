@@ -1,0 +1,46 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* flex横向靠边布局 */
+.flex_rowBetween {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* 纵向靠边布局 */
+.flex_colBetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+/* 纵向靠边居中布局 */
+.flex_colBetween_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 盒子内元素水平居中 */
+.col_center {
+  display: flex;
+  align-items: center;
+}
+/* 盒子内元素水平垂直居中 */
+.col_row_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* flex横向靠边垂直居中布局 */
+.flex_rowBetween_c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

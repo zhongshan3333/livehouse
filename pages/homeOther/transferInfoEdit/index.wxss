@@ -1,0 +1,52 @@
+/* pages/homeOther/transferInfoEdit/index.wxss */
+page {
+  background-color: #EFF2F6;
+}
+
+.infoFillBox {
+  width: 750rpx;
+  background-color: #fff;
+  margin-bottom: 17rpx;
+}
+
+.inputClass {
+  width: 686rpx;
+  height: 80rpx;
+  background: #F6F6F6;
+  border-radius: 6rpx;
+}
+
+.select_class {
+  width: 686rpx;
+  height: 80rpx;
+}
+
+.arrowImg {
+  width: 30rpx;
+  height: 55rpx
+}
+
+.select {
+ 
+  font-size: 28rpx;
+  color: #999999;
+  font-weight: 400;
+}
+.textarea_class{
+  width: 686rpx;
+height: 222rpx;
+background: #F5F5F5;
+border-radius: 4rpx;
+padding:16rpx 0 0 24rpx
+}
+.release{
+  width: 686rpx;
+  height: 88rpx;
+  margin-left: 53rpx;
+  background: #FC6F43;
+  border-radius: 8rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  font-weight: 400;
+}
