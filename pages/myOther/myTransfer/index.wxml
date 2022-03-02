@@ -1,0 +1,31 @@
+<!--我的转票-->
+<view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+      <view class="info" class="flex_rowBetween">
+        <view style="color:#FF2B2B;font-size:30rpx;margin-bottom:20rpx">¥330</view>
+      </view>
+      <view style="font-size:24rpx;color:#999;text-align:right">编辑</view>
+    </view>
+  </view>
+  <view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+      <view class="info" class="flex_rowBetween">
+        <view style="color:#FF2B2B;font-size:30rpx;margin-bottom:20rpx">¥330</view>
+      </view>
+      <view style="font-size:24rpx;color:#999;text-align:right">编辑</view>
+    </view>
+  </view>
+  <view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+      <view class="info" class="flex_rowBetween">
+        <view style="color:#FF2B2B;font-size:30rpx;margin-bottom:20rpx">¥330</view>
+      </view>
+     <view style="font-size:24rpx;color:#999;text-align:right">编辑</view>
+    </view>
+  </view>

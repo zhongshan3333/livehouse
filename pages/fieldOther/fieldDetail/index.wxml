@@ -1,0 +1,73 @@
+<!--场地详情-->
+
+<view class="field_box col_center" style="margin-top:27rpx" bindtap="todetai">
+  <image class="field_img" style="margin-right:24rpx"></image>
+  <view style="height:98rpx" class="flex_colBetween">
+    <view style="font-size:30rpx;color:#0A0A17;">B10现场</view>
+    <view class="col_center">
+      <view class="textClass" style="font-size:26rpx;color:#999999;width:520rpx">深圳南山区华侨城创意文化园北区C2栋北侧fffffffff</view>
+      <image style="width:48rpx;height:48rpx" src="../../../images/place.png"></image>
+    </view>
+
+  </view>
+
+</view>
+<view class="line" style="margin:25rpx 0"></view>
+<view class="reson">
+  深圳南山区华侨城创意文化园北区C2栋北侧深圳最受Livehouse，是由华侨城创意文化园主办、艺术家滕斐和独立音乐策划人涂飞共同策划的音乐艺术空间。如果对livehouse感兴趣，B10肯定能给你带来不错的体验。
+</view>
+<view id='tabs'>
+  <view class='tabs-box'>
+    <block wx:for="{{['演出列表']}}" wx:key="index">
+      <view class="tabs-item {{currentTabIndex == index ? 'selected' : '' }}" bindtap='onTabsItemTap'
+        data-index='{{index}}'>
+        {{item}}
+      </view>
+    </block>
+  </view>
+  <view class='ordert-detail'>
+    <view hidden='{{currentTabIndex != 0}}'>
+      <view class="ticket_info" bindtap="toDetail">
+        <image class="imgClass"></image>
+        <view class="info_box flex_colBetween">
+          <view class="title">【深圳站】「南方小镇」《南方小镇》2021巡演</view>
+          <view class="time">11月2日 20:30 周二</view>
+          <view class="info" class="flex_rowBetween">
+            <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+          </view>
+        </view>
+      </view>
+      <view class="ticket_info" bindtap="toDetail">
+        <image class="imgClass"></image>
+        <view class="info_box flex_colBetween">
+          <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+          <view class="time">11月2日 20:30 周二</view>
+          <view class="info" class="flex_rowBetween">
+            <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+          </view>
+        </view>
+      </view>
+      <view class="ticket_info" bindtap="toDetail">
+        <image class="imgClass"></image>
+        <view class="info_box flex_colBetween">
+          <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+          <view class="time">11月2日 20:30 周二</view>
+          <view class="info" class="flex_rowBetween">
+            <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+          </view>
+        </view>
+      </view>
+      <view class="ticket_info" bindtap="toDetail">
+        <image class="imgClass"></image>
+        <view class="info_box flex_colBetween">
+          <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+          <view class="time">11月2日 20:30 周二</view>
+          <view class="info" class="flex_rowBetween">
+            <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view hidden='{{currentTabIndex != 1}}'>页面2</view>
+  </view>
+</view>

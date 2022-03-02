@@ -1,0 +1,17 @@
+<view class="picker-modal">
+  <view class="picker-back {{show ? 'active' : ''}}"></view>
+  <view class="picker-content {{show ? 'active' : ''}}">
+    <view class="picker-toolbar">
+      <view class="picker-list-title">{{title}}</view>
+      <view class="picker-btns">
+        <text onTap="handlePickerCancle">取消</text>
+        <text onTap="handlePickerConfirm">确定</text>
+      </view>
+    </view>
+    <picker-view value="{{pickerIndex}}" onChange="handlePickerChange">
+      <picker-view-column>
+        <view a:for="{{list}}" a:key="*this">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+</view>

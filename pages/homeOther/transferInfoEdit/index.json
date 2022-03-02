@@ -1,4 +1,8 @@
 {
   "navigationBarTitleText":"信息填写",
-  "usingComponents": {}
+  "usingComponents": {
+    "qts-picker":"../../../components/qts-picker",
+    "van-field": "@vant/weapp/field/index",
+    "van-datetime-picker": "@vant/weapp/datetime-picker/index"
+  }
 }

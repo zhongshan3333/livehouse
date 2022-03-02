@@ -19,6 +19,12 @@ Page({
       isCollection:!this.data.isCollection
     })
   },
+  copyWx(){
+    wx.showToast({
+      icon:'success',
+      title: '复制成功',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

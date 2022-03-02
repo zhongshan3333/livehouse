@@ -1,0 +1,112 @@
+/* pages/fieldOther/fieldDetail/index.wxss */
+page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+ padding-bottom:48rpx
+}
+
+.field_box {
+  width: 687rpx;
+  height: 138rpx;
+  background: #FFFFFF;
+  border-radius: 6rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.field_img {
+  width: 96rpx;
+  height: 98rpx;
+  background-color: rgb(232, 238, 238);
+}
+
+.textClass {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+
+}
+
+.line {
+  width: 697rpx;
+  height: 1rpx;
+  background-color: #E8E8E8;
+}
+
+.reson {
+  width: 687rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  color: #999999;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-top: 24rpx;
+  margin-bottom: 68rpx;
+}
+
+#tabs {
+  font-size: 28rpx;
+}
+
+.tabs-box {
+  width: 687rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center
+}
+
+.tabs-item.selected {
+  color: #656075;
+  border-bottom: 3rpx solid #555067;
+}
+
+.tabs-item {
+  width: 33.33%;
+  font-size: 28rpx;
+  color: #555067;
+}
+.ticket_info {
+  width: 687rpx;
+  height: 294rpx;
+  display: flex;
+  box-sizing: border-box;
+  padding: 16rpx 20rpx;
+  margin-top: 20rpx;
+  border-radius: 6rpx;
+}
+
+.imgClass {
+  width: 218rpx;
+  height: 262rpx;
+  margin-right: 20rpx;
+  border-radius: 6rpx;
+  background-color: rgb(232, 238, 238);
+}
+
+.info_box {
+  height: 262rpx;
+  width: 480rpx;
+
+}
+
+.title {
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  color: #0A0A17;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.time {
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  color: #999999;
+  letter-spacing: 0;
+  font-weight: 400;
+}

@@ -1,0 +1,16 @@
+<view wx:if='{{flag}}'>
+  <view class='mask' bindtap='modal_click_Hidden' />
+  <view class='dialog_box'>
+    <view class="title">{{title}}</view>
+    <!-- <view class='content col_row_center'>
+     {{content}}
+    </view> -->
+    <view class="input_content">
+      <input type="text" class="nameInput" placeholder-style="color:#999;font-size:28rpx;" placeholder="请输入昵称"/>
+    </view>
+    <view class='btn1'>
+      <view bindtap='cancel' class='cancel col_row_center'>取消</view>
+      <view bindtap='sure' class='Sure col_row_center'>确定</view>
+    </view>
+  </view>
+</view>

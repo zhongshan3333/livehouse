@@ -14,7 +14,26 @@ Page({
   onLoad: function (options) {
 
   },
-
+  toEditInfo(){
+    wx.navigateTo({
+      url: '../myOther/editInfo/index',
+    })
+  },
+  toMyCollection(){
+    wx.navigateTo({
+      url: '../myOther/collection/index',
+    })
+  },
+  toMyTransfer(){
+    wx.navigateTo({
+      url: '../myOther/myTransfer/index',
+    })
+  },
+  toMyRemind(){
+    wx.navigateTo({
+      url: '../myOther/myRemind/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

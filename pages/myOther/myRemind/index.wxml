@@ -1,0 +1,24 @@
+<!--pages/myOther/myRemind/index.wxml-->
+<view style="width:687rpx;font-size:24rpx;color:#999;margin:19rpx 0">将在开票前15分钟通过小程序推送至您的微信</view>
+<view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+      <view class="time">11月2日 20:30 周二</view>
+      <view class="info" class="flex_rowBetween">  
+        <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+      </view>
+     
+    </view>
+  </view>
+  <view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+      <view class="time">11月2日 20:30 周二</view>
+      <view class="info" class="flex_rowBetween">
+        <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+      </view>
+    
+    </view>
+  </view>

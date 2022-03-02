@@ -1,0 +1,54 @@
+<!--转票详情-->
+<view class="ticket_info" bindtap="toDetail">
+  <image class="imgClass"></image>
+  <view class="info_box flex_colBetween">
+    <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+    <view class="info" class="flex_rowBetween">
+      <view class="time col_center">
+        <image style="width:28rpx;height:29rpx;margin-right:6rpx" src="../../../images/position.png"></image>B10现场
+      </view>
+    </view>
+    <view class="time col_center">
+      <image style="width:28rpx;height:28rpx;margin-right:6rpx" src="../../../images/time.png"></image>12月2日 20:30 周二
+    </view>
+    <view style="height:50rpx"></view>
+
+
+  </view>
+</view>
+<view class="ticketinfo flex_colBetween">
+  <view style="height:60rpx;margin-top:20rpx"><text class="attribute">电子码类型：</text><text class="value">静态码</text></view>
+  <view style="height:60rpx"><text class="attribute">是否实名入场：</text><text class="value">是</text></view>
+  <view style="height:60rpx"><text class="attribute">数量：</text><text class="value">2</text><text
+      style="margin-left:500rpx;color:#FF2B2B;font-size:30rpx">￥240</text></view>
+</view>
+<view class="reson_box">
+  <view class="reson_title" style="">转票原因</view>
+  <view class="reson">
+    「关于彻夜不眠的事情」浪潮在夜晚受月亮影响到达白天不能触及的位置，而我在这些蠢蠢欲动的夜晚彻夜不眠。在平滑时渴望波澜，在起伏时期待宁静，在灵光一闪时记下转瞬的想法，在醒来时删除它，人是不断推翻自我的矛盾体，推翻、又重建。让人彻夜不眠的事情是什么呢？像浪潮里裹挟的沙粒，似乎能清楚地看见，但试图抓住的时候，它已随浪潮流走。
+    「关于彻夜不眠的事情」浪潮在夜晚受月亮影响到达白天不能触及的位置，而我在这些蠢蠢欲动的夜晚彻夜不眠。在平滑时渴望波澜，在起伏时期待宁静，在灵光一闪时记下转瞬的想法，在醒来时删除它，人是不断推翻自我的矛盾体，推翻、又重建。让人彻夜不眠的事情是什么呢？像浪潮里裹挟的沙粒，似乎能清楚地看见，但试图抓住的时候，它已随浪潮流走。
+    「关于彻夜不眠的事情」浪潮在夜晚受月亮影响到达白天不能触及的位置，而我在这些蠢蠢欲动的夜晚彻夜不眠。在平滑时渴望波澜，在起伏时期待宁静，在灵光一闪时记下转瞬的想法，在醒来时删除它，人是不断推翻自我的矛盾体，推翻、又重建。让人彻夜不眠的事情是什么呢？像浪潮里裹挟的沙粒，似乎能清楚地看见，但试图抓住的时候，它已随浪潮流走。
+    「关于彻夜不眠的事情」浪潮在夜晚受月亮影响到达白天不能触及的位置，而我在这些蠢蠢欲动的夜晚彻夜不眠。在平滑时渴望波澜，在起伏时期待宁静，在灵光一闪时记下转瞬的想法，在醒来时删除它，人是不断推翻自我的矛盾体，推翻、又重建。让人彻夜不眠的事情是什么呢？像浪潮里裹挟的沙粒，似乎能清楚地看见，但试图抓住的时候，它已随浪潮流走。
+    「关于彻夜不眠的事情」浪潮在夜晚受月亮影响到达白天不能触及的位置，而我在这些蠢蠢欲动的夜晚彻夜不眠。在平滑时渴望波澜，在起伏时期待宁静，在灵光一闪时记下转瞬的想法，在醒来时删除它，人是不断推翻自我的矛盾体，推翻、又重建。让人彻夜不眠的事情是什么呢？像浪潮里裹挟的沙粒，似乎能清楚地看见，但试图抓住的时候，它已随浪潮流走。
+    「关于彻夜不眠的事情」浪潮在夜晚受月亮影响到达白天不能触及的位置，而我在这些蠢蠢欲动的夜晚彻夜不眠。在平滑时渴望波澜，在起伏时期待宁静，在灵光一闪时记下转瞬的想法，在醒来时删除它，人是不断推翻自我的矛盾体，推翻、又重建。让人彻夜不眠的事情是什么呢？像浪潮里裹挟的沙粒，似乎能清楚地看见，但试图抓住的时候，它已随浪潮流走。
+    「关于彻夜不眠的事情」浪潮在夜晚受月亮影响到达白天不能触及的位置，而我在这些蠢蠢欲动的夜晚彻夜不眠。在平滑时渴望波澜，在起伏时期待宁静，在灵光一闪时记下转瞬的想法，在醒来时删除它，人是不断推翻自我的矛盾体，推翻、又重建。让人彻夜不眠的事情是什么呢？像浪潮里裹挟的沙粒，似乎能清楚地看见，但试图抓住的时候，它已随浪潮流走。
+    「关于彻夜不眠的事情」浪潮在夜晚受月亮影响到达白天不能触及的位置，而我在这些蠢蠢欲动的夜晚彻夜不眠。在平滑时渴望波澜，在起伏时期待宁静，在灵光一闪时记下转瞬的想法，在醒来时删除它，人是不断推翻自我的矛盾体，推翻、又重建。让人彻夜不眠的事情是什么呢？像浪潮里裹挟的沙粒，似乎能清楚地看见，但试图抓住的时候，它已随浪潮流走。
+    「关于彻夜不眠的事情」浪潮在夜晚受月亮影响到达白天不能触及的位置，而我在这些蠢蠢欲动的夜晚彻夜不眠。在平滑时渴望波澜，在起伏时期待宁静，在灵光一闪时记下转瞬的想法，在醒来时删除它，人是不断推翻自我的矛盾体，推翻、又重建。让人彻夜不眠的事情是什么呢？像浪潮里裹挟的沙粒，似乎能清楚地看见，但试图抓住的时候，它已随浪潮流走。
+    「关于彻夜不眠的事情」浪潮在夜晚受月亮影响到达白天不能触及的位置，而我在这些蠢蠢欲动的夜晚彻夜不眠。在平滑时渴望波澜，在起伏时期待宁静，在灵光一闪时记下转瞬的想法，在醒来时删除它，人是不断推翻自我的矛盾体，推翻、又重建。让人彻夜不眠的事情是什么呢？像浪潮里裹挟的沙粒，似乎能清楚地看见，但试图抓住的时候，它已随浪潮流走。
+  </view>
+</view>
+<view class="bottom_box">
+  <view class="person col_center">
+        <image class="personImg"></image>
+        <view class="name">胖胖仔</view>
+        <view style="font-size:22rpx;color: #999999;margin-left:400rpx">23分钟前发布</view>
+    </view>
+    <view class="line"></view>
+  <view class="col_row_center" style="margin-top:10rpx">
+    <view>
+      <image style="width:50rpx;height:50rpx" bindtap="collectionTap" src="{{isCollection?'../../../images/collection_fill.png':'../../../images/collection.png'}}"></image>
+      <view style="font-size: 22rpx;color: #292A2D;">收藏</view>
+    </view>
+    <view class="copyWx col_row_center">复制微信号</view>
+  </view>
+</view>

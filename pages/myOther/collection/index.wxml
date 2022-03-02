@@ -1,0 +1,59 @@
+<!--我的收藏-->
+<view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+      <view class="info" class="flex_rowBetween">
+        <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+      </view>
+      <view class="line"></view>
+      <view class="person col_center">
+        <image class="personImg"></image>
+        <view class="name">胖胖仔</view>
+      </view>
+    </view>
+  </view>
+  <view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+      <view class="info" class="flex_rowBetween">
+        <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+      </view>
+      <view class="line"></view>
+      <view class="person col_center">
+        <image class="personImg col_center"></image>
+        <view class="name">胖胖仔</view>
+      </view>
+    </view>
+  </view>
+  <view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+      <view class="info" class="flex_rowBetween">
+        <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+      </view>
+      <view class="line"></view>
+      <view class="person col_center">
+        <image class="personImg"></image>
+        <view class="name">胖胖仔</view>
+      </view>
+    </view>
+  </view>
+  <view style="width:687rpx;margin-top:38rpx">已过期</view>
+  <view class="ticket_info" bindtap="toDetail">
+    <image class="imgClass"></image>
+    <view class="info_box flex_colBetween">
+      <view class="title">【深圳站】「咖喱3000」《我们都在你没来》巡演 LVH</view>
+      <view class="info" class="flex_rowBetween">
+        <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
+      </view>
+      <view class="line"></view>
+      <view class="person col_center">
+        <image class="personImg"></image>
+        <view class="name">胖胖仔</view>
+      </view>
+    </view>
+  </view>
+  <view style="" class="release col_row_center">清除已过期场次</view>

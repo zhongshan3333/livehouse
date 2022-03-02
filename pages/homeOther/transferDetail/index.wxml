@@ -49,6 +49,6 @@
       <image style="width:50rpx;height:50rpx" bindtap="collectionTap" src="{{isCollection?'../../../images/collection_fill.png':'../../../images/collection.png'}}"></image>
       <view style="font-size: 22rpx;color: #292A2D;">收藏</view>
     </view>
-    <view class="copyWx col_row_center">复制微信号</view>
+    <view class="copyWx col_row_center" bindtap="copyWx">复制微信号</view>
   </view>
 </view>

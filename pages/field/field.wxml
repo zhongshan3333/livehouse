@@ -1,19 +1,19 @@
 <!--场地-->
-<view class="field_box col_center" style="margin-top:27rpx">
+<view class="field_box col_center" style="margin-top:27rpx" bindtap="todetai">
   <image class="field_img" style="margin-right:24rpx"></image>
   <view style="height:98rpx" class="flex_colBetween">
     <view style="font-size:30rpx;color:#0A0A17;">B10现场</view>
     <view style="font-size:26rpx;color:#999999;">深圳南山区华侨城创意文化园北区C2栋北侧</view>
   </view>
 </view>
-<view class="field_box col_center">
+<view class="field_box col_center" bindtap="todetai">
   <image class="field_img" style="margin-right:24rpx"></image>
   <view style="height:98rpx" class="flex_colBetween">
     <view style="font-size:30rpx;color:#0A0A17;">A8 Live</view>
     <view style="font-size:26rpx;color:#999999;">深圳南山区华侨城创意文化园北区C2栋北侧</view>
   </view>
 </view>
-<view class="field_box col_center">
+<view class="field_box col_center" bindtap="todetai">
   <image class="field_img" style="margin-right:24rpx"></image>
   <view style="height:98rpx" class="flex_colBetween">
     <view style="font-size:30rpx;color:#0A0A17;">迷笛Live</view>

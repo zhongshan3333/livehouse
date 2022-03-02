@@ -14,7 +14,7 @@
         <view style="color:#FF2B2B;font-size:30rpx">¥330</view>
       </view>
       <view class="line"></view>
-      <view class="person">
+      <view class="person col_center">
         <image class="personImg"></image>
         <view class="name">胖胖仔</view>
       </view>
