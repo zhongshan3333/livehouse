@@ -1,5 +1,24 @@
+
+<view wx:if="{{isHide}}">
+    <view wx:if="{{canIUse}}" >
+        <view class='header'>
+            <image src='/images/1.jpg'></image>
+        </view>
+
+        <view class='content'>
+            <view>申请获取以下权限</view>
+            <text>获得你的公开信息(昵称，头像等)</text>
+        </view>
+
+        <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+            授权登录
+        </button>
+    </view>
+    <view wx:else>请升级微信版本</view>
+</view>
+
 <!--首页-->
-<view class="contain">
+<view class="contain" wx:else>
   <view class="search">
     <icon type="search" style="margin-left:12rpx;margin-right:12rpx"></icon>
     <input type="text" placeholder-style="color:#BBBBBB" placeholder="搜索转票信息" style="width:90%；height:64rpx"/>

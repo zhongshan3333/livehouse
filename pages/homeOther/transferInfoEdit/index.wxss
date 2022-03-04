@@ -4,7 +4,7 @@ page {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center
+  align-items: center;
 }
 
 .infoFillBox {
@@ -52,7 +52,11 @@ padding:16rpx 0 0 24rpx
   font-size: 32rpx;
   color: #FFFFFF;
   font-weight: 400;
+    position: fixed;
+    bottom: 48rpx;
+
 }
+
 /* 图片上传 */
 .addImg{
   width: 137rpx;

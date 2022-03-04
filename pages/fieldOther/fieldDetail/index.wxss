@@ -62,7 +62,8 @@ page {
 }
 
 .tabs-item.selected {
-  color: #656075;
+  font-size:32rpx;
+  color: #555067;
   border-bottom: 3rpx solid #555067;
 }
 

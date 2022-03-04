@@ -4,7 +4,7 @@ page {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
- padding-bottom:48rpx
+ padding-bottom:60rpx
 }
 .ticket_info {
   width: 750rpx;
@@ -50,7 +50,6 @@ page {
   width: 480rpx;
   height: 1rpx;
   background-color: #E8E8E8;
- 
 }
 
 .person {
